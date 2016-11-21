@@ -33,11 +33,15 @@ body {
     padding-left: 0;
 }
 
-.sg-navbar-right > li > a:link,
-.sg-navbar-right > li > a:visited,
-.sg-navbar-right > li > a:hover,
-.sg-navbar-right > li > a:active {
+.sg-nav .sg-navbar-right > li > a:link,
+.sg-nav .sg-navbar-right > li > a:visited,
+.sg-nav .sg-navbar-right > li > a:hover,
+.sg-nav .sg-navbar-right > li > a:active {
     color: #89609E;
+}
+
+.sg-nav .sg-navbar-right > li > a:hover {
+    text-decoration: underline;
 }
 
 .sg-navbar-right a {
