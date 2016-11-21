@@ -1,0 +1,10 @@
+# Build settings
+source: _src
+
+gems:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
